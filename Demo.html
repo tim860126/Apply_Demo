@@ -21,22 +21,7 @@
 		'success'
 		)
 	}
-	function ch()
-	{
-		var tr_length = $('.table tr').length; //tr 長度
-		for(var i=0; i < tr_length; i++){
-			a=$('.table tr:eq('+i+') td:eq(6)').text();
-			a=parseFloat(a);
-			if (a<0){
-				$('.table tr:eq('+i+') td:eq(6)').css("color","LimeGreen");
-				$('.table tr:eq('+i+') td:eq(1)').css("color","LimeGreen");
-			}
-			else{
-				$('.table tr:eq('+i+') td:eq(6)').css("color","red");
-				$('.table tr:eq('+i+') td:eq(1)').css("color","red");
-			}
-		}
-	}
+	
   </script>
   <body>
 	<div class="content ">
